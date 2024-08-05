@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './assets/components/Header';
 import Body from './assets/components/Body';
 import Footer from './assets/components/Footer';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Body />
         <Footer />
       </div>
+    <SpeedInsights />
     </div>
   );
 }
